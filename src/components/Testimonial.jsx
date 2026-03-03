@@ -38,7 +38,6 @@ const Testimonial = () => {
         <p className="text-sm sm:text-base text-gray-600 mb-4">{message}</p>
         <h1 className="font-semibold text-base sm:text-lg">{name}</h1>
       </div>
-      {/* Arrow  */}
       <div className="flex justify-center mt-4 sm:mt-6 space-x-4 sm:space-x-6">
         <button
           onClick={prev}

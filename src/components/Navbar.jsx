@@ -15,7 +15,6 @@ const Navbar = () => {
               Food&<span className="text-accent">Flame</span>
             </h1>
           </div>
-          {/* link Nav menu*/}
           <nav className="hidden md:flex items-center space-x-6 text-dark">
             <a className="font-semibold hover:text-primary " href="#home">
               Home
@@ -37,7 +36,6 @@ const Navbar = () => {
             </a>
             
           </nav>
-          {/* mobile menu btn visible on mobile */}
           <div className="md:hidden">
             {showMenu ? (
               <FaXmark

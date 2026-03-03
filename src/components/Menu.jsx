@@ -61,7 +61,6 @@ const Menu = () => {
               </div>
             ))}
           </div>
-          {/* modal open  */}
           <ItemModal
             isOpen={isModalOpen}
             onClose={closeModal}

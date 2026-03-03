@@ -12,7 +12,6 @@ const Footer = () => {
     <div className="py-12 sm:py-16 md:py-20 bg-secondary">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
-          {/* first col  */}
           <div>
             <h1 className="text-lg sm:text-xl font-semibold mb-4">
               Food&<span className="text-primary"> Flame</span>
@@ -22,7 +21,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* second col  */}
           <div>
             <h1 className="text-lg sm:text-xl text-dark font-semibold mb-4">
               Quick Links
@@ -47,7 +45,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* third col  */}
           <div>
             <h1 className="text-lg sm:text-xl text-dark font-semibold mb-4">
               Contact Info
@@ -59,7 +56,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* four col  */}
           <div>
             <h1 className="text-lg sm:text-xl text-dark font-bold mb-4">Follow Us</h1>
             <div className="flex items-center gap-3 sm:gap-4 mb-6">

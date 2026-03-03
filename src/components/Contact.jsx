@@ -39,7 +39,6 @@ const Contact = () => {
           <p className="text-sm sm:text-base text-gray-700">We'd love to hear from you</p>
         </div>
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
-          {/* left  side  */}
           <div className="w-full md:w-1/2">
             <div className="w-full overflow-hidden p-4 sm:p-6 md:p-8">
               <h1 className="text-xl sm:text-2xl mb-4 sm:mb-6 text-dark font-bold">
@@ -93,7 +92,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* right side form  */}
           <div className="w-full md:w-1/2">
             <div className="w-full rounded-xl shadow-xl overflow-hidden p-4 sm:p-6 md:p-8">
               <h1 className="mb-4 sm:mb-6 text-xl sm:text-2xl text-dark font-bold">

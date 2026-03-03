@@ -13,7 +13,6 @@ const About = () => {
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-8 sm:gap-12">
-          {/* left  section */}
           <div className="md:w-1/2">
             <img
               className="w-full h-full object-cover rounded-xl"
@@ -21,7 +20,6 @@ const About = () => {
               alt="aboutImg"
             />
           </div>
-          {/* right  section */}
           <div className="md:w-1/2">
             <h3 className="text-2xl sm:text-3xl font-semibold text-dark mb-4 sm:mb-6 md:mb-8">
               A Culinary Journey
@@ -37,7 +35,6 @@ const About = () => {
               ensuring the freshest seasonal dishes that celebrate the region's
               bounty while supporting our community.
             </p>
-            {/* button section  */}
             <div className="flex flex-wrap items-center gap-4 sm:gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary rounded-full flex items-center justify-center">

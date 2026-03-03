@@ -66,9 +66,7 @@ const Reservation = () => {
             Book your table in advance to ensure the best dining experience
           </p>
         </div>
-        {/* Reservatyion form  */}
         <div className="max-w-2xl mx-auto bg-gray-50 p-4 sm:p-6 md:p-8 rounded shadow">
-          {/* booking form  */}
           <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
               <InputField
@@ -146,7 +144,6 @@ const Reservation = () => {
             </button>
           </form>
 
-          {/* booking confirm modal  */}
           <BookingModal isOpen={isModalOpen} onClose={closeModal} />
         </div>
       </div>
