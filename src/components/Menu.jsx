@@ -3,6 +3,16 @@ import { foodMenu } from "../assets/assets";
 import ItemModal from "./ItemModal";
 
 const Menu = () => {
+  const getMenuItems = () => {
+    const stored = localStorage.getItem("menuItems");
+    if (!stored) {
+      localStorage.setItem("menuItems", JSON.stringify(foodMenu));
+      return foodMenu;
+    }
+    return JSON.parse(stored);
+  };
+
+  const [menuItems] = useState(getMenuItems());
   const [selectedItem, setSelectedItem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = (item) => {
@@ -26,7 +36,7 @@ const Menu = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-12">
-            {foodMenu.map((food, index) => (
+            {menuItems.map((food, index) => (
               <div
                 onClick={() => openModal(food)}
                 key={index}
