@@ -45,7 +45,7 @@ const Contact = () => {
                 Get in Touch
               </h1>
               <div className="flex items-start gap-4 sm:gap-6 mb-4 sm:mb-6">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center shrink-0">
                   <FaLocationArrow />
                 </div>
                 <div>
@@ -55,7 +55,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4 sm:gap-6 mb-4 sm:mb-6">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center shrink-0">
                   <FaPhone />
                 </div>
                 <div>
@@ -65,7 +65,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4 sm:gap-6 mb-4 sm:mb-6">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center shrink-0">
                   <FaEnvelope />
                 </div>
                 <div>
@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4 sm:gap-6 mb-4 sm:mb-6">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-primary text-white rounded-full flex items-center justify-center shrink-0">
                   <FaClock />
                 </div>
                 <div>
