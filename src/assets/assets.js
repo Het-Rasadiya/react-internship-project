@@ -36,16 +36,6 @@ export const foodMenu = [
       "Classic Italian Margherita pizza with a hand‑tossed crust, fresh tomato sauce, mozzarella cheese, and basil leaves baked in a wood‑fired oven.",
   },
   {
-    id: 2,
-    image: item2Img,
-    title: "Chicken Burger",
-    price: "₹ 199",
-    category: "Non‑Veg",
-    ingredients: "Chicken patty, lettuce, cheese, mayo",
-    description:
-      "Juicy grilled chicken patty served in a toasted bun with lettuce, cheese, and creamy mayonnaise. Perfectly seasoned and cooked on a flat grill.",
-  },
-  {
     id: 3,
     image: item3Img,
     title: "White Sauce Pasta",
@@ -54,16 +44,6 @@ export const foodMenu = [
     ingredients: "Penne pasta, white sauce, veggies",
     description:
       "Creamy white sauce pasta with sautéed vegetables like broccoli, bell peppers, and mushrooms, tossed with penne and garnished with cheese.",
-  },
-  {
-    id: 4,
-    image: item4Img,
-    title: "Mutton Biryani",
-    price: "₹ 349",
-    category: "Non‑Veg",
-    ingredients: "Mutton, basmati rice, spices",
-    description:
-      "Fragrant basmati rice layered with tender mutton, saffron, and authentic Indian spices, cooked in a traditional dum style.",
   },
   {
     id: 5,
@@ -126,16 +106,6 @@ export const foodMenu = [
       "Chunks of marinated paneer grilled with capsicum and onions, infused with smoky flavors and served with mint chutney.",
   },
   {
-    id: 11,
-    image: item11Img,
-    title: "Grilled Fish",
-    price: "₹ 329",
-    category: "Non‑Veg",
-    ingredients: "Fish fillet, lemon, herbs",
-    description:
-      "Fresh fish fillets marinated with lemon juice, herbs, and spices, then grilled to perfection. Served with a side salad.",
-  },
-  {
     id: 12,
     image: item12Img,
     title: "Red Velvet Cake",
@@ -164,16 +134,6 @@ export const foodMenu = [
     ingredients: "Milk, strawberries, ice cream",
     description:
       "Sweet and refreshing milkshake made with fresh strawberries, chilled milk, and vanilla ice cream.",
-  },
-  {
-    id: 15,
-    image: item15Img,
-    title: "Tandoori Chicken",
-    price: "₹ 299",
-    category: "Non‑Veg",
-    ingredients: "Chicken, yogurt, spices",
-    description:
-      "Tender chicken pieces marinated in spiced yogurt and grilled in a tandoor for that perfect smoky flavor. Served with onion rings and lemon wedges.",
   },
 ];
 
